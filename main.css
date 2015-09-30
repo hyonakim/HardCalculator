@@ -1,29 +1,34 @@
-.container {
-  background: #61B350;
-  width: 390px;
-  height: auto;
-  margin: 70px 0 0 416px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.calculatorTop,
-.calculator2,
-.calculator3,
-.calculator4,
-.calculator5, {
+.container {
+  width: 400px;
+  height: auto;
+  background: green;
+  color: #fff;
+  margin: 45px 0 0 45px;
+}
+
+#valueArea {
   display: inline-block;
-  width: 41px;
+  width: 294px;
+  height: 61px;
+  position: absolute;
+  top: 48px;
+  background: #008000;
+  margin-left: 3px;
 }
 
 .clear {
-  padding: 45px;
-  width: 41px;
-  background: #5EB44A;
-  color: #fff;
+  display: inline-block;
+  width: 96px;
+  height: 70px;
+  background: #008000;
 }
-
-.number {
-  padding: 45px;
-  width: 41px;
-  background: #5EB44A;
-  color: #fff;
+.numbers button {
+  width: 96px;
+  height: 70px;
+  background: #008000;
 }
